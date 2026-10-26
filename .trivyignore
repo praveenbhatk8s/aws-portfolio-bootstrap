@@ -1,0 +1,3 @@
+# State bucket uses SSE-S3 (AES256) instead of a customer-managed KMS key.
+# Trade-off: a CMK costs 1 USD/month plus API calls; state holds no secrets in this portfolio.
+AVD-AWS-0132
